@@ -25,8 +25,8 @@ function GetColor(props)
     return Colors.lightware_red
 end
 
-input_count = 8
-output_count = 8
+input_count = 33
+output_count = 33
 -- We can let users determine some of the plugin properties by exposing them here
 -- While this function can be very useful, it is completely optional and not always needed.
 -- If no Properties are set here, only the position and fill properties of your plugin will show in the Properties pane
@@ -40,7 +40,7 @@ function GetProperties()
         {
             Name = "Model",
             Type = "enum",
-            Choices = {"MMX4x2", "MMX6x2", "MMX8x4", "MMX8x8"},
+            Choices = {"MMX4x2", "MMX6x2", "MMX8x4", "MMX8x8", "MX-FR33R"},
             Value = "MMX4x2"
         }
         --[[ -- for future use
@@ -178,7 +178,9 @@ end
 function GetControlLayout(props)
     local layout = {}
 
-    input_count, output_count = string.match(props["Model"].Value, "MX(%d+)x(%d+)")
+-- Was string.match(props["Model"].Value, "MX(%d+)x(%d+)")
+    input_count = 33
+    output_count = 33
 
     local title_size = {224, 32}
     local btn_size = {32, 24}
