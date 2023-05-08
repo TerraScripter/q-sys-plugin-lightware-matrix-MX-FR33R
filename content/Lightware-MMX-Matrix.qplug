@@ -3,12 +3,12 @@
 -- For source, contact https://soloworks.co.uk
 
 PluginInfo = {
-    Name = "Lightware~MMX Matrix (0.0.0.0-master)", -- The tilde here indicates folder structure in the Shematic Elements pane
-    Version = "0.0.0.0-master",
+    Name = "Lightware~MX-FR33R v0.0.0.1", -- The tilde here indicates folder structure in the Shematic Elements pane
+    Version = "v0.0.0.1",
     Id = "qsysc.lightware.mmx.0.0.0.0-master", -- show this is just a unique id. Show some commented out 'fun' unique ids
-    Description = "Control for Lightware MMX range of Video Matrices",
+    Description = "Control for Lightware MMX-FR33R",
     ShowDebug = false,
-    Author = "Solo Works London"
+    Author = "Solo Works London/JP"
 }
 
 -- Once you've drawn your plugin in Designer, you can determine what colors you use a lot. Save yourself some time by putting them in a table, and then simply calling them later.
